@@ -2,8 +2,11 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3000",
   "dependencies": {
+    "@apollo/client": "^3.12.6",
     "cra-template": "1.2.0",
+    "graphql": "^16.10.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1"
